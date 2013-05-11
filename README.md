@@ -2,7 +2,8 @@
 
 **Valljuk, hogy nem a termék oldja meg a problémát, hanem a megfelelő szakemberek. Nem a licenszek vásárlása, hanem az elvégzett munka, a szolgáltatás az, amely működő megoldásokat eredményez.**
 
-## OpenGov.hu - nyílt kormányzati szolgáltatások tervezési kézikönyve
+## OpenGov.hu
+**Nyílt kormányzati szolgáltatások tervezési kézikönyve**
 
 Ez a GitHub tároló az OpenGov.hu tartalmát kezeli.
 
