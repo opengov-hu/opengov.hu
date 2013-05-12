@@ -1,0 +1,36 @@
+@charset 'UTF-8';
+
+.text {
+  color: #333;
+  font-weight: 600;
+  font-size: 22px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+}
+.text h3 {
+  color: rgb(223, 48, 52);
+}
+
+.state {
+  background-color: rgb(223, 48, 52);
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 4px;
+}
+.date {
+  font-weight: 600;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 4px;
+}
+
+.logo {
+  color: #CCC;
+  font-weight: 600;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 4px;
+}
