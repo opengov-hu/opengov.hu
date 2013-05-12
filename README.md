@@ -3,12 +3,12 @@
 **Valljuk, hogy nem a termék oldja meg a problémát, hanem a megfelelő szakemberek. Nem a licenszek vásárlása, hanem az elvégzett munka, a szolgáltatás az, amely működő megoldásokat eredményez.**
 
 ## OpenGov.hu
-**Nyílt kormányzati szolgáltatások tervezési kézikönyve**
+**Nyílt kormányzati informatikai szolgáltatások kézikönyve**
 
 Ez a GitHub tároló az OpenGov.hu tartalmát kezeli.
 
 ## Cél
-Az opengov.hu célja, hogy közösségi alapokon szerveződve létrejöjjön egy olyan nyílt, a legmodernebb informatikai megoldásokat bemutató tudásbázis, amely a kormányzati informatika döntéshozói, fejlesztői részére naprakész információ forrás.
+Az opengov.hu célja, hogy közösségi alapokon szerveződve létrejöjjön egy olyan nyílt, a legmodernebb informatikai megoldásokat bemutató tudásbázis, amely a kormányzati informatika döntéshozói, fejlesztői részére naprakész, minőségi információforrás.
 
 A tartalom mindenre kiterjedhet ami információ, és információ technológia, néhány példa:
 
@@ -39,3 +39,22 @@ A fenti célok megvalósulása esetén számos hatása lehet az OpenGov.hu kezde
 
 ### Pató István
 2000 óta foglalkozik kormányzati informatikai fejlesztésekkel: architektúrák tervezése, tervezés, programozás, automatikus tesztek fejlesztése, teljesítmény tesztek, UX tervezés. Ismert fejlesztési technológiák, eszközök: Agile, Lean, Kanban and Scrum, Wiki, Java platform HTML5, Google Maps, JavaScript, CSS, jQuery, Open Source Software and Open Standard, NoSQL - MongoDB, vert.x, Ubuntu Linux, Redis, JMeter, Git and BitBucket, Mustache template engine, Jade, NodeJS, Grunt, NetBeans, Apache Maven, Twitter Bootstrap, BDD - Cucumber, JUnit, WebDriver, Chrome, Firefox, Internet "OMG" Explorer, Jenkins, Cloud - Amazon Web Service EC2 and S3, SpringFramework, JMS, SOAP WebService, Objective-C, iOS, XCODE, ...
+
+## OpenGov.hu készítése
+Az OpenGov.hu fejlesztése nyílt alkalmazásokkal történik. Az oldal tartalmát CSS, MarkDown (.md), HTML5 és JavaScript segítségével fejlesztjük. Felhasználjuk a közösségi médiát (Twitter, GitHub) a fejlesztésre és kapcsolattartásra. A felhasznált nyílt szoftverek és módszerek:
+- (wintersmith)[https://github.com/jnordberg/wintersmith]: NodeJS alapú statikus tartalom generáló eszköz az OpenGov.hu web oldalának előállításához.
+- Ubuntu Linux operációs rendszer
+- GIMP képszerkesztő
+- Kanban
+- reText MarkDown fájl szerkesztő
+
+### A weboldal generálása
+1. Klónozd a git tárolót
+1. A létrehozott könyvtárban add ki az alábbi parancsot:
+    wintersmith build
+1. A ./build könyvtárban megtalálod a kész tartalmat.
+
+### Fejlesztés és ellenőrzés
+A fejlesztéshez nem szükséges mindig kigenerálni a build könyvtárat! Egyszerűen add ki a
+    wintersmith preview
+parancsot az opengov.hu könyvtárban, és a böngészőben a http://localhost:8080 címen eléred az oldalt.
