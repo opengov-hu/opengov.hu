@@ -42,14 +42,14 @@ A fenti célok megvalósulása esetén számos hatása lehet az OpenGov.hu kezde
 
 ## OpenGov.hu készítése
 Az OpenGov.hu fejlesztése nyílt alkalmazásokkal történik. Az oldal tartalmát CSS, MarkDown (.md), HTML5 és JavaScript segítségével fejlesztjük. Felhasználjuk a közösségi médiát (Twitter, GitHub) a fejlesztésre és kapcsolattartásra. A felhasznált nyílt szoftverek és módszerek:
-- wintersmith https://github.com/jnordberg/wintersmith : NodeJS alapú statikus tartalom generáló eszköz az OpenGov.hu web oldalának előállításához.
+- Wintersmith https://github.com/jnordberg/wintersmith : NodeJS alapú statikus tartalom generáló eszköz az OpenGov.hu web oldalának előállításához.
 - Ubuntu Linux operációs rendszer
 - GIMP képszerkesztő
 - Kanban
 - reText MarkDown fájl szerkesztő
 
 ### A weboldal generálása
-1. Telepítsd a NodeJs (npm) és a Wintersmith programot.
+1. Telepítsd a NodeJS (npm) és a Wintersmith programot.
 1. Klónozd a git tárolót!
 1. A létrehozott könyvtárban add ki az alábbi parancsot:
 **wintersmith build**
