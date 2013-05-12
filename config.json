@@ -1,5 +1,9 @@
 {
   "locals": {
-    "title": "OpenGov.hu"
+    "site": "opengov.hu",
+    "desc": "Nyílt kormányzati informatikai szolgáltatások kézikönyve",
+    "statement": "Valljuk, hogy nem a termék oldja meg a problémát, hanem a megfelelő szakemberek.",
+    "statementDesc": "Nem a licenszek vásárlása, hanem az elvégzett munka, a szolgáltatás az, amely működő megoldásokat eredményez.",
+    "source": "https://github.com/patoi/opengov.hu"
   }
 }
