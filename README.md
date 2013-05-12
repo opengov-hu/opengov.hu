@@ -49,7 +49,8 @@ Az OpenGov.hu fejlesztése nyílt alkalmazásokkal történik. Az oldal tartalm�
 - reText MarkDown fájl szerkesztő
 
 ### A weboldal generálása
-1. Klónozd a git tárolót
+1. Telepítsd a NodeJs (npm) és a Wintersmith programot.
+1. Klónozd a git tárolót!
 1. A létrehozott könyvtárban add ki az alábbi parancsot:
 **wintersmith build**
 1. A ./build könyvtárban megtalálod a kész tartalmat.
