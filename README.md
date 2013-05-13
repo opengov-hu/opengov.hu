@@ -47,7 +47,7 @@ Az OpenGov.hu fejlesztése nyílt alkalmazásokkal történik. Az oldal tartalm�
 - GIMP képszerkesztő
 - Kanban
 - reText MarkDown fájl szerkesztő
-- Jade: template eszköz
+- Jade template eszköz
 
 ### A weboldal generálása
 1. Telepítsd a NodeJS (npm) és a Wintersmith programot.
@@ -75,6 +75,6 @@ Az oldalakhoz kötelező a minimális metaadatokat megadni az alábbi formában:
 A *state* BETA, vagy LIVE értékű lehet. Először minden tartalmat BETA jelzővel adj meg, ha az adott oldal már LIVE értékű, akkor ne változtasd.
 
 ### Az oldalak megfogalmazása
-Az oldalakat közvetlen stílusban fogalmazzuk meg. Nem használunk egyesszám elsőszemélyt.
+Az oldalakat közvetlen stílusban fogalmazzuk meg. Nem használunk egyesszám elsőszemélyt. Azokat a szavakat, amelyek a magyar nyelvben nem honosodtak meg angol nyelven tüntetjük fel. Bizonyos esetekben magyarul és angolul is feltüntetjük a fogalmakat.
 
 
