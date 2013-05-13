@@ -14,7 +14,7 @@ Ezen oldal tartalma részben a https://www.gov.uk/service-manual/browse oldal fo
 
 * [Agilis](/epitsunk-szolgaltatast/agilis/agilis.html) `Mi ez, miért működik, és hogyan csináljuk?`
 * [Folyamatos szállítás](/epitsunk-szolgaltatast/agilis/folyamatos-szallitas.html) `Legyen unalmas a verzióváltás`
-* [Agilis Sprint jellemzői](/epitsunk-szolgaltatast/agilis/agilis-sprint-jellemzoi.html) `Napi egyeztetés, és egyéb rendszeres megbeszélések`
+* [Az agilis fejlesztés jellemzői](/epitsunk-szolgaltatast/agilis/agilis-sprint-jellemzoi.html) `Napi egyeztetés, és egyéb rendszeres megbeszélések`
 * [Minőség](/epitsunk-szolgaltatast/agilis/minoseg.html) `Hogyan definiáld, hogyan mérd, és hogyan tartsd fenn?`
 * [Rendszeres visszatekintés](/epitsunk-szolgaltatast/agilis/retrospectiv.html) `Hogyan és miért elemezzünk?`
 * [Tesztelés agilis környezetben](/epitsunk-szolgaltatast/agilis/teszteles-agilis-kornyezetben.html) `Hogyan néz ki egy szolgáltatás tesztelése?`
