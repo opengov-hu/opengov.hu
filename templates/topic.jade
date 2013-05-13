@@ -1,0 +1,14 @@
+extends layout
+
+// Content
+block content
+  div.wrapper.wrapper-style1
+    article#work
+      header
+        h2= locals.statement
+        span= locals.statementDesc
+      header
+      div.container
+        div.row
+          div.12u
+            section.text.guides!= page.html

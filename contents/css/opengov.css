@@ -34,3 +34,16 @@
   font-family: 'Open Sans', sans-serif;
   padding: 4px;
 }
+
+.guides ul li {
+  width: 100%;
+  border-bottom: 1px solid #CCC;
+  padding-bottom: 5px;
+}
+.guides ul li a {
+  display: inline-block;
+  width: 40%;
+}
+.guides ul li code {
+  display: inline-block;
+}
