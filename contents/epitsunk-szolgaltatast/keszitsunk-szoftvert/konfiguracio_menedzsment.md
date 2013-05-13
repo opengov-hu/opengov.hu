@@ -16,7 +16,7 @@ A legegyszerűbb alkalmazás esetén is szükség van konfigurációs adatokra, 
 
 A konfigurációmenedzsment eszközök segítségével tudjuk egy rendszer konfigurációját és függőségeit karbantartani. Ezeket a feladatokat házon belül készített szoftvereszközökkel is meg lehet oldani, de a gyakorlatban célszerűbb valamilyen létező, elterjedt eszközt használni.
 
-Három példa a létező, elterjedt konfigurációmenedzsment eszközökre: [Ansible](http://ansible.cc/), [Chef](http://www.opscode.com/chef/) and [Puppet](https://puppetlabs.com/).
+Három példa a létező, elterjedt konfigurációmenedzsment eszközökre: [Ansible](http://ansible.cc/), [Chef](http://www.opscode.com/chef/) és [Puppet](https://puppetlabs.com/).
 
 ### Kezeld programkódként az infrastruktúra és konfiguráció leírását
 
