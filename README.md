@@ -43,11 +43,11 @@ A fenti célok megvalósulása esetén számos hatása lehet az OpenGov.hu kezde
 Szalai Gyula és Pató István az OpenGov.hu karbantartói és a kezdeményezés elindítói.
 
 <img src="http://www.gravatar.com/avatar/446566051e4a9ed9270452f7d4a36a58.png" alt="Szalai Gyula">
-Szalai Gyula
+Szalai Gyula<br/>
 <a href="https://twitter.com/intent/tweet?screen_name=gyszalai" class="twitter-mention-button" data-related="gyszalai">Tweet küldése Szalai Gyulának</a>
 
 <img src="http://www.gravatar.com/avatar/bccd8a27bbf77651c3ad812e55df4a60.png" alt="Pató István">
-Pató István
+Pató István<br/>
 <a href="https://twitter.com/intent/tweet?screen_name=patoistvan" class="twitter-mention-button" data-related="patoistvan">Tweet küldése Pató Istvánnak</a>
 
 2000 óta foglalkoznak kormányzati informatikával, így nem csak a kormányzati informatika jelenlegi helyzetére, hanem egész történetére rálátásuk van. Ezen tudást felhasználva igyekeznek jövőbe mutató megoldásokat és módszereket javasolni, és megvitatni a szakma közönséggel. A következő rendszerek fejlesztésében vettek részt az elmúlt években: Kötelező Gépjármű-felelősségbiztosítási rendszer, Magyar járműnyilvántartó rendszer, Parkolási igazolvány rendszer, Ügyfélkapu rendszer, Országos szabálysértési nyilvántarás, Idegenrendészeri nyilvántartó rendszer, Jogügyletek biztonságát fokozó rendszer, Egyéni vállalkozói igazolvány rendszer, és még további fejlesztések.
