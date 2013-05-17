@@ -47,7 +47,7 @@ Szalai Gyula és Pató István az OpenGov.hu karbantartói és a kezdeményezés
                     <br><br><a href="https://twitter.com/intent/tweet?screen_name=patoistvan" class="twitter-mention-button" data-related="patoistvan">Tweet to @patoistvan</a>
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                 </div>
-                <div class="span4" style="text-align: center; background-color: #eee;-webkit-border-radius:6px;">
+<div class="span4" style="text-align: center; background-color: #eee;-webkit-border-radius:6px;">
                     <h4>Gyula Szalai</h4>
                     <img src="http://www.gravatar.com/avatar/446566051e4a9ed9270452f7d4a36a58.png" alt="Gyula Szalai">
                     <br><br><a href="https://twitter.com/intent/tweet?screen_name=gyszalai" class="twitter-mention-button" data-related="patoistvan">Tweet to @patoistvan</a>
