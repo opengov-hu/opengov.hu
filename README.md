@@ -41,18 +41,10 @@ A fenti célok megvalósulása esetén számos hatása lehet az OpenGov.hu kezde
 ## OpenGov.hu indítói és karbantartói
 
 Szalai Gyula és Pató István az OpenGov.hu karbantartói és a kezdeményezés elindítói.
-<div class="span4" style="text-align: center; background-color: #eee;-webkit-border-radius:6px;">
-                    <h4>István Pató</h4>
-                    <img src="http://www.gravatar.com/avatar/bccd8a27bbf77651c3ad812e55df4a60.png" alt="Istvan Pato">
-                    <br><br><a href="https://twitter.com/intent/tweet?screen_name=patoistvan" class="twitter-mention-button" data-related="patoistvan">Tweet to @patoistvan</a>
-                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                </div>
-<div class="span4" style="text-align: center; background-color: #eee;-webkit-border-radius:6px;">
-                    <h4>Gyula Szalai</h4>
-                    <img src="http://www.gravatar.com/avatar/446566051e4a9ed9270452f7d4a36a58.png" alt="Gyula Szalai">
-                    <br><br><a href="https://twitter.com/intent/tweet?screen_name=gyszalai" class="twitter-mention-button" data-related="patoistvan">Tweet to @patoistvan</a>
-                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                </div>
+
+Pató István <img src="http://www.gravatar.com/avatar/bccd8a27bbf77651c3ad812e55df4a60.png" alt="Istvan Pato"><a href="https://twitter.com/intent/tweet?screen_name=patoistvan" class="twitter-mention-button" data-related="patoistvan">Tweet to @patoistvan</a>
+
+Szalai Gyula <img src="http://www.gravatar.com/avatar/446566051e4a9ed9270452f7d4a36a58.png" alt="Gyula Szalai"><a href="https://twitter.com/intent/tweet?screen_name=gyszalai" class="twitter-mention-button" data-related="patoistvan">Tweet to @patoistvan</a>
 
 2000 óta foglalkoznak kormányzati informatikával, így nem csak a kormányzati informatika jelenlegi helyzetére, hanem egész történetére rálátásuk van. Ezen tudást felhasználva igyekeznek jövőbe mutató megoldásokat és módszereket javasolni, és megvitatni a szakma közönséggel. A következő rendszerek fejlesztésében vettek részt az elmúlt években: Kötelező Gépjármű-felelősségbiztosítási rendszer, Magyar járműnyilvántartó rendszer, Parkolási igazolvány rendszer, Ügyfélkapu rendszer, Országos szabálysértési nyilvántarás, Idegenrendészeri nyilvántartó rendszer, Jogügyletek biztonságát fokozó rendszer, Egyéni vállalkozói igazolvány rendszer, és még további fejlesztések.
 
