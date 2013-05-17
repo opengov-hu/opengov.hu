@@ -3,12 +3,14 @@
 **Valljuk, hogy nem a termék oldja meg a problémát, hanem a megfelelő szakemberek. Nem a licenszek vásárlása, hanem az elvégzett munka, a szolgáltatás az, amely működő megoldásokat eredményez.**
 
 ## OpenGov.hu
-**Nyílt kormányzati informatikai szolgáltatások kézikönyve**
+**Nyílt kormányzati informatikai szolgáltatások fejlesztésének kézikönyve**
 
 Ez a GitHub tároló az OpenGov.hu tartalmát kezeli.
 
 ## Cél
 Az opengov.hu célja, hogy közösségi alapokon szerveződve létrejöjjön egy olyan nyílt, a legmodernebb informatikai megoldásokat bemutató tudásbázis, amely a kormányzati informatika döntéshozói, fejlesztői részére naprakész, minőségi információforrás.
+
+**Az oldal technológiai megoldásokat és javaslatokat mutat be, amelyek közvetlenül felhasználhatók bármely kormányzati informatikai projektben.**
 
 A tartalom mindenre kiterjedhet ami információ, és információ technológia, néhány példa:
 
@@ -17,6 +19,7 @@ A tartalom mindenre kiterjedhet ami információ, és információ technológia,
 - milyen fejelsztőeszközök ajánlottak?
 - milyen tesztelési eszközök és módszerek biztosítják a minőséget?
 - emberi tényezők és a fejlesztés pszichológiája
+- architektúrák
 
 **A létrehozott tartalom egységes nyelv a döntéshozók, végrehajtók, fejlesztők között, ezzel megkönnyítve és olcsóbbá téve az informatikai fejlesztéseket.**
 
@@ -37,8 +40,34 @@ A fenti célok megvalósulása esetén számos hatása lehet az OpenGov.hu kezde
 
 ## OpenGov.hu indítói és karbantartói
 
-### Pató István
+Szalai Gyula és Pató István az OpenGov.hu karbantartói és a kezdeményezés elindítói.
+<div class="span4" style="text-align: center; background-color: #eee;-webkit-border-radius:6px;">
+                    <h4>István Pató</h4>
+                    <img src="http://www.gravatar.com/avatar/bccd8a27bbf77651c3ad812e55df4a60.png" alt="Istvan Pato">
+                    <br><br><a href="https://twitter.com/intent/tweet?screen_name=patoistvan" class="twitter-mention-button" data-related="patoistvan">Tweet to @patoistvan</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                </div>
+                <div class="span4" style="text-align: center; background-color: #eee;-webkit-border-radius:6px;">
+                    <h4>Gyula Szalai</h4>
+                    <img src="http://www.gravatar.com/avatar/446566051e4a9ed9270452f7d4a36a58.png" alt="Gyula Szalai">
+                    <br><br><a href="https://twitter.com/intent/tweet?screen_name=gyszalai" class="twitter-mention-button" data-related="patoistvan">Tweet to @patoistvan</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                </div>
+
+2000 óta foglalkoznak kormányzati informatikával, így nem csak a kormányzati informatika jelenlegi helyzetére, hanem egész történetére rálátásuk van. Ezen tudást felhasználva igyekeznek jövőbe mutató megoldásokat és módszereket javasolni, és megvitatni a szakma közönséggel. A következő rendszerek fejlesztésében vettek részt az elmúlt években: Kötelező Gépjármű-felelősségbiztosítási rendszer, Magyar járműnyilvántartó rendszer, Parkolási igazolvány rendszer, Ügyfélkapu rendszer, Országos szabálysértési nyilvántarás, Idegenrendészeri nyilvántartó rendszer, Jogügyletek biztonságát fokozó rendszer, Egyéni vállalkozói igazolvány rendszer, és még további fejlesztések.
+
+### Pató István - istvan.pato@gmail.com
 2000 óta foglalkozik kormányzati informatikai fejlesztésekkel: architektúrák tervezése, tervezés, programozás, automatikus tesztek fejlesztése, teljesítmény tesztek, UX tervezés. Ismert fejlesztési technológiák, eszközök: Agile, Lean, Kanban and Scrum, Wiki, Java platform HTML5, Google Maps, JavaScript, CSS, jQuery, Open Source Software and Open Standard, NoSQL - MongoDB, vert.x, Ubuntu Linux, Redis, JMeter, Git and BitBucket, Mustache template engine, Jade, NodeJS, Grunt, NetBeans, Apache Maven, Twitter Bootstrap, BDD - Cucumber, JUnit, WebDriver, Chrome, Firefox, Internet "OMG" Explorer, Jenkins, Cloud - Amazon Web Service EC2 and S3, SpringFramework, JMS, SOAP WebService, Objective-C, iOS, XCODE, ...
+
+### Szalai Gyula
+2000 óta foglalkozik kormányzati informatikai fejlesztésekkel: architektúrák tervezése, tervezés, programozás, automatikus tesztek fejlesztése, teljesítmény tesztek, UX tervezés. Ismert fejlesztési technológiák, eszközök: Agile, Lean, Kanban and Scrum, Wiki, Java platform HTML5, Google Maps, JavaScript, CSS, jQuery, Open Source Software and Open Standard, NoSQL - MongoDB, vert.x, Ubuntu Linux, Redis, JMeter, Git and BitBucket, Mustache template engine, Jade, NodeJS, NetBeans, Apache Maven, BDD - Cucumber, JUnit, WebDriver, Chrome, Firefox, Internet "OMG" Explorer, Jenkins, SpringFramework, JMS, SOAP WebService...
+
+## Az OpenGov.hu támogatása
+A tartalom alapvetően a közösség kezében van, de azért, hogy a tartalom minőségi, és szakmailag megalapozott legyen, ezért a karbantartók minden anyagot áttekintenek. Fentartjuk a jogot a beküldött tartalom szerkesztésére, módosítására, törlésére, illetve közlésére.
+
+Ezen munka időigényes, sok kutatást és egyezetetést igényel. A karbantartók jelenleg önkéntes alapon végzik ezt a munkát, de keressük azokat a forrásokat, amelyek segítségével a munka felgyorsítható és kiterjeszthető.
+
+**Várjuk a támogatókat, akiknek a segítségével, gyorsabban, és nagyobb területet lefedő tartalmat tudunk létrehozni!** 
 
 ## OpenGov.hu készítése
 Az OpenGov.hu fejlesztése nyílt alkalmazásokkal történik. Az oldal tartalmát CSS, MarkDown (.md), HTML5 és JavaScript segítségével fejlesztjük. Felhasználjuk a közösségi médiát (Twitter, GitHub) a fejlesztésre és kapcsolattartásra. A felhasznált nyílt szoftverek és módszerek:
