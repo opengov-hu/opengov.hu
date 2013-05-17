@@ -55,7 +55,7 @@ Szalai Gyula és Pató István az OpenGov.hu karbantartói és a kezdeményezés
 <td>Szalai Gyula<br/>
 <a href="https://twitter.com/intent/tweet?screen_name=gyszalai" class="twitter-mention-button" data-related="gyszalai">Tweet küldése</a>
 <br/>
-<a href="mailto: istvan.pato@gmail.com?subject=OpenGov.hu - ">Levél küldése</a>
+<a href="mailto: gyszalai@gmail.com?subject=OpenGov.hu - ">Levél küldése</a>
 </td>
 <td>Pató István<br/>
 <a href="https://twitter.com/intent/tweet?screen_name=patoistvan" class="twitter-mention-button" data-related="patoistvan">Tweet küldése</a>
