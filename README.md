@@ -53,15 +53,21 @@ Szalai Gyula és Pató István az OpenGov.hu karbantartói és a kezdeményezés
 </tr>
 <tr>
 <td>Szalai Gyula<br/>
-<a href="https://twitter.com/intent/tweet?screen_name=gyszalai" class="twitter-mention-button" data-related="gyszalai">Tweet küldése Szalai Gyulának</a></td>
+<a href="https://twitter.com/intent/tweet?screen_name=gyszalai" class="twitter-mention-button" data-related="gyszalai">Tweet küldése</a>
+<br/>
+<a href="mailto: istvan.pato@gmail.com">Levél küldése</a>
+</td>
 <td>Pató István<br/>
-<a href="https://twitter.com/intent/tweet?screen_name=patoistvan" class="twitter-mention-button" data-related="patoistvan">Tweet küldése Pató Istvánnak</a></td>
+<a href="https://twitter.com/intent/tweet?screen_name=patoistvan" class="twitter-mention-button" data-related="patoistvan">Tweet küldése</a>
+<br/>
+<a href="mailto: istvan.pato@gmail.com">Levél küldése</a>
+</td>
 </tr>
 </table>
 
 2000 óta foglalkoznak kormányzati informatikával, így nem csak a kormányzati informatika jelenlegi helyzetére, hanem egész történetére rálátásuk van. Ezen tudást felhasználva igyekeznek jövőbe mutató megoldásokat és módszereket javasolni, és megvitatni a szakma közönséggel. A következő rendszerek fejlesztésében vettek részt az elmúlt években: Kötelező Gépjármű-felelősségbiztosítási rendszer, Magyar járműnyilvántartó rendszer, Parkolási igazolvány rendszer, Ügyfélkapu rendszer, Országos szabálysértési nyilvántarás, Idegenrendészeri nyilvántartó rendszer, Jogügyletek biztonságát fokozó rendszer, Egyéni vállalkozói igazolvány rendszer, és még további fejlesztések.
 
-### Pató István - istvan.pato@gmail.com
+### Pató István
 2000 óta foglalkozik kormányzati informatikai fejlesztésekkel: architektúrák tervezése, tervezés, programozás, automatikus tesztek fejlesztése, teljesítmény tesztek, UX tervezés. Ismert fejlesztési technológiák, eszközök: Agile, Lean, Kanban and Scrum, Wiki, Java platform HTML5, Google Maps, JavaScript, CSS, jQuery, Open Source Software and Open Standard, NoSQL - MongoDB, vert.x, Ubuntu Linux, Redis, JMeter, Git and BitBucket, Mustache template engine, Jade, NodeJS, Grunt, NetBeans, Apache Maven, Twitter Bootstrap, BDD - Cucumber, JUnit, WebDriver, Chrome, Firefox, Internet "OMG" Explorer, Jenkins, Cloud - Amazon Web Service EC2 and S3, SpringFramework, JMS, SOAP WebService, Objective-C, iOS, XCODE, ...
 
 ### Szalai Gyula
