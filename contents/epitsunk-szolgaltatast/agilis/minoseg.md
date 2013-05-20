@@ -1,60 +1,43 @@
 ---
 title: Minőség
-desc: Hogyan definiáld, hogyan mérd, és hogyan tartsd fenn?
-preface: Ha olyan jó minőségű szolgáltatást akarunk építeni, amit az emberek szívesen használnak, a fejlesztőcsapat minden tagjának felelősséget kell éreznie a minőség iránt. A rendszer minőségét azok határozzák meg, akik létrehozzák azt.
-author: Szalai Gyula <gyszalai@gmail.com>
-date: 2013-05-15 21:50
+desc: A szoftver minőség mérése és értékelése
+preface: Minden szoftver minősége döntően befolyásolja a felhasználó elégedettségét, ezért különösen fontos, hogy törekedjünk a kiváló és hibátlan termék elkészítésére.
+author: Pató István <istvan.pato@gmail.com>
+date: 2013-05-12 19:44
 state: BETA
 template: layout.jade
 ---
 
-Ha a szoftvertermék minősége nem megfelelő, az minden résztvevőnek nyilvánvaló kell, hogy legyen és a projektben dolgozó minden embernek meg kell tennie a megfelelő lépéseket, hogy a minőség javuljon és a problémák megoldódjanak. 
+### Minőség
+A minőség a legfontosabb a szolgáltatások építésénél. Az emberek csak akkor fogják használni a szolgáltatást, ha azt egyszerűen, és könnyen tudják igénybevenni. Minden hiba, vagy csiszolatlan megoldás nehezíti a használatot.
 
-## A minőség meghatározása
+A minőségért nem a minőség ügyi részleg felel. Ma már sok haladó vállalatnál egész egyszerűen megszüntették az ilyen részlegeket. Hogy miért? Azért mert a minőségért mindenki felel. A minőség a folyamatba van ágyazva, ha nem jó a minőség a folyamat szakad meg. A megszakadt folyamatot elemezni kell ki kell javítani (nem a terméket kell javítani!), és újra indítani a "termelést".
 
-A minőség minden csapattag számára mást és mást jelent. A minőség alapvetően a szolgáltatás felhasználójának felhasználói élményét jelenti. 
+### Minőség definíciója
+A minőség minden csapattagnak mást jelenthet, de alapvetően a felhasználó által tapasztalt élményt jelenti a tranzakció megkezdésétől a befejezéséig. Egy jól megírt , hibátlanul működő program is lehet rossz minőségű!
 
-Ez lehetnek például:
+A felhasználó a szolgáltatást pozitívan értékeli, ha:
+1. a szolgáltatás elérhető könnyen, többféle eszközről
+2. nagyon egyszerűen kezelhető a program
+3. biztonságban tudja az adatait a használat közben
+4. különbőző körülmények között is jól látja a tartalmat (napfény, gyengénlátó, sötét szoba, mobil telefon kijelző)
+5. csak azt a tartalmat látja amire szüksége van
+6. ha folyamat van, akkor tudja mit csinált eddig, hol tart, és mi van még hátra
+7. az alkalmazást responzívnak érzi
+8. úgy érzi hogy megoldotta a problémáját amiért használta a szolgáltatást
 
-* \* a szolgáltatás elérhetősége a lehető legszélesebb felhasználói tábor számára a megfelelő eszközökön keresztül
-* \* a felhasználói műveletek egyszerűsége
-* \* a szolgáltató képessége, hogy szükség esetén minél gyorsabban segítséget nyújtson a felhasználónak
-* \* a tárolt és kezelt adatok mennyisége arányban áll-e a nyújtott szolgáltatással és biztonságban vannak-e az adatok
-* \* az infrastruktúra és a szoftverrendszer robusztussága
-* \* a programkód megfelelően tesztelt és hibamentes-e
-* \* mennyire gyorsan válaszol a rendszer nagy terhelés esetén
-* \* mennyire gyorsan lehet skálázni a rendszert, hogy az előre nem tervezett mértékű forgalmat is kiszolgálja
-* \* a fejlesztőcsapat képessége, hogy rövid idő alatt alkalmazkodjon a megváltozott követelményekhez és módosítson, vagy új funkciókat adjon a rendszerhez
+### Technikai adósság (Technical Debt)
+A technkiai adósság fogalmát talán úgy lehetne definiálni, hogy kompromisszumokat kötünk az alkalmazás fejlesztés közben az alkalmazás minőségére vonatkozóan: sebesség, folyamatos szállíthatóság, módosíthatóság, megjelenés, stb.
 
-### A technológiai adósságról
+Szoftver fejleszteni lehetetlen ilyen kompromisszumok nélkül. De bagyon fontos, hogy a csapat minden tagja tisztában legyen a problémával, és törekedjen annak megoldására.
 
-A szoftverfejlesztés kapcsán gyakran hallunk a 'technológiai adósságról' (technical debt). Sokféle definíció létezik erre a fogalomra, de általában azokat a kompromisszumos megoldásokat értjük alatta, amiket egy alkalmazás vagy rendszer fejlesztése közben alkalmazunk a szép, tiszta, bővíthető megoldások helyett azért, hogy a termék minél előbb a piacra kerüljön, vagy eljusson a felhasználóhoz.
+Sok kompromisszum esetén a fejlesztés lelassul, a minőség radikálisan csökken, a szállítás lehetetlenné válik. Ekkor szoktak projekteket leállítani, átstruktúrálni és újraindítani. Ezt mindenképpen el kell kerülni.
 
-Lehetetlen úgy szoftvert fejleszteni, hogy közben ne gyűlne össze némi technológiai adósság, de nagyon fontos, hogy a fejlesztőcsapat tisztában legyen a kompromisszumos megoldásokkal és a tagok megosszák a velük kapcsolatos információkat. A nagy mennyiségű technológiai adósság lelassítja a jövőbeni fejlesztést, viszont ha a csapatnak tiszta képe van a helyzetről, akkor az adósság ledolgozásához szükséges feladatokat a csapat folyamatosan be tudja a iktatni a fejlesztési feladatok közé, így biztosítva, hogy a jövőben is gyorsan tud menni a fejlesztés.
-
-## Tesztelés
-
-A megfelelő minőség eléréséhez egy sor különböző típusú tesztelést kell alkalmaznunk. Csak akkor tudod megmondani, hogy a szolgáltatás megfelel-e a fenti kritériumoknak vagy bármilyen más minőségi definíciónak, ha tesztelted a rendszert normál és extrém körülmények között.
+### Tesztelés
+Mindent tesztelni kell amit lehet. A szoftvert, a telepítést, még a specifikációt is. A 2000-es évek elején a tesztelések nagy részét kézzel végezték, kézzel összeállított teszttervek alapján. Mára azonban a tesztelők feladata megváltozott. Egy modern tesztelő futtatható teszteket ír, módosít. Felállítja az automatikus tesztrendszert és tesztek eredménye alapján értékeli a rendszer elemeket. Míg régen egy tesztelő hetente többször ugyanazokat a teszteket végezte kézzel, gyakran órákon keresztül, ma már ezt az időt arra fordítja, hogy megírja a tesztet, amit bármikor, akár naponta többször az automatikus tesztrendszer lefuttat és kiértékel. Így minden pillanatban, minden változás után ismerjük a rendszer minőségét. Természetesen a felhasználói élmény tesztelése megmaradt az ember számára.
 
 A teszteléssel kapcsolatban olvasd el a következő fejezeteket is:
 
 * [Tesztelés agilis környezetben](http://www.opengov.hu/epitsunk-szolgaltatast/agilis/teszteles-agilis-kornyezetben.html)
 * [Alkalmazás tesztelés](http://www.opengov.hu/epitsunk-szolgaltatast/szoftver-fejlesztes/alkalmazas-teszteles.html)
 * [Átadás - átvételi teszt](http://www.opengov.hu/epitsunk-szolgaltatast/szoftver-fejlesztes/atadas-atveteli.html)
-
-
-## A csapaton belüli szerepek és minőségbiztosítási (QA) szakértők
-
-Egy elektronikus szolgáltatás megfelelő minősége az egész csapat felelőssége, de a végső felelősség a **Service Manager**é. Nagyon fontos, hogy a **Service Manager** a csapattal együtt dolgozzon és megértse, hogy a megfelelő minőség biztosításához milyen lépések és teendők szükségesek.
-Az ő feladatai közé tartozik az is, hogy biztosítsa, hogy a csapat már a funkciók tervezésekor szem előtt tartsa a minőséget és hogy legyen megfelelő idő és erőforrás a tesztek megírásához...
-
-**That will include making sure that the team are considering quality when writing development stories and allowing time and resources to test what they're building, doing the groundwork to ensure that assumptions about the accessibility of a service are regularly tested, taking the time to consider failure scenarios and how they will respond, and so on.**
-
-Ha valóban mindent lefedő tesztelést szeretnénk, időnként be kell vonni specialistákat vagy adott témakörre specifikus eszközöket, szolgáltatásokat. Például a penetrációs tesztek elvégzéséhez mindenképpen érdemes külső feleket bevonni, mert külső szemlélőként olyan hibákat és gyengeségeket is fel tudnak fedezni a rendszerben, amit a belső 
-szemlélő nem vesz észre vagy nem is gondol rá.
-
-Néhány csapat külön minőségbiztosítási szakértőt is alkalmaz. Ez azért lehet nagyon hasznos, mert így a minőségbiztosítással kapcsolatos dolgok irányítás alá kerülnek és a csapattagok is megkapják a megfelelő oktatást és erőforrásokat, hogy jobb minőségű legyen az elkészült szolgáltatás.
-
-A minőségbiztosítási szakértő hatásköre tiszta kell hogy legyen és együtt kell dolgoznia a fejlesztőcsapattal, hogy a minőség a fejlesztés minden lépésébe beépüljön és ne csak utólag a folyamat végén legyen egy ellenőrzés. 
-
-**We encourage teams employing a QA specialist to consider such a role a short-term responsibility with the intention that they quickly leave the team able to manage quality as part of their standard development and iteration of the service.**
