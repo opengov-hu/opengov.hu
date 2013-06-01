@@ -15,9 +15,9 @@ A visszatekintés egy minden [sprint](/epitsunk_szolgaltatast/agilis/agilis-foga
 
 A visszatekintés a következő lépésekből áll
 
-1. Adatok, információk összegyűjtése
-2. A problémák elemzése, kibontása
-3. A teendők eldöntése
+* \* Adatok, információk összegyűjtése
+* \* A problémák elemzése, kibontása
+* \* A teendők eldöntése
 
 A visszatekintés során minden csapattagnak meg kell adni a lehetőséget, hogy hozzájáruljon a fejlesztési folyamat és a termelékenység javításához.
 
@@ -47,7 +47,7 @@ A visszatekintő megbeszélések eredményeképpen ki kell derülnie, hogy mik a
 
 A megfogalmazott lépésekkel, teendőkkel kapcsolatos követelmények
 
-* \* legyenek konkrétak, mérhetőek (pl. 'írjunk 10 unit tesztet az XY modulhoz' vagy 'állítsunk össze egy új tesztkörnyezetet az alkalmazáshoz'. Az 'írjunk több unit tesztet' vagy 'jobban figyeljünk a minőségre')
+* \* legyenek konkrétak, mérhetőek (pl. 'írjunk 10 unit tesztet az XY modulhoz' vagy 'állítsunk össze egy új tesztkörnyezetet az alkalmazáshoz'). Az 'írjunk több unit tesztet' vagy 'jobban figyeljünk a minőségre' nem elég konkrét.
 * \* legyen konkrét határidejük
 * \* legyen konkrét felelőse, az ne a 'csapat' legyen
 * \* ne olyan személy legyen a felelős, aki nincsen jelen
@@ -84,12 +84,13 @@ Adj a csapatnak kb. 15 percet, hogy felírhassanak egy-egy cetlire olyan dolgoka
 
 ### 00:45 - 01:05 (20 perc) Megbeszélés
 
-Ismét csoportosítsátok a cetliket témák szerint, szükség szerint állítsatok fel fontossági sorrendet és beszéljétek meg a fő területeket. Ki tudjuk találni, hogy miért mentek ezek a dolgok rosszul? Ki tudjuk találni, hogy mit kell tennünk ahhoz, hogy a dolgok javuljanak? Meg tudjuk akadályozni, hogy bizonyos dolgok újra megtörténjenek? Ki tudunk jelölni teendőket, amit a jelenlevők közül valaki elvállal és ezzel javul a helyzet? 
+Ismét csoportosítsátok a cetliket témák szerint, szükség szerint állítsatok fel fontossági sorrendet és beszéljétek meg a fő területeket. 
+
+Ki tudjuk találni, hogy miért mentek ezek a dolgok rosszul? Ki tudjuk találni, hogy mit kell tennünk ahhoz, hogy a dolgok javuljanak? Meg tudjuk akadályozni, hogy bizonyos dolgok újra megtörténjenek? Ki tudunk jelölni teendőket, amit a jelenlevők közül valaki elvállal és ezzel javul a helyzet? 
 
 ### 01:05 - 01:20 (15 perc) Teendők
 
 Nézzétek át az előző pontokban azonosított teendőket, lépéseket, rendeljétek hozzá egy-egy jelenlevő csapattaghoz és adjatok ezeknek reális határidőt.
-
 
 A visszatekintő megbeszélés teljes hossza 80 perc 10% csúszóidővel. A megbeszélést a tervezett idő előtt be lehet fejezni, ha mindenki elmondta, amit akart, viszont az időkeretet nem szabad túllépni. Ha túl sok a megbeszélnivaló, akkor a témákat fontossági sorrendbe kell állítani és esetleg a következő megbeszéléseken időt kell nekik szorítani.
 
