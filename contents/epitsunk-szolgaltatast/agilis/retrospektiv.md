@@ -1,11 +1,12 @@
 ﻿---
 title: Rendszeres visszatekintés
 desc: Hogyan és miért elemezzünk?
-preface: Az agilis szoftverfejlesztés egyik központi elve a gyors visszacsatolás – amint lehet, bemutatjuk a készülő terméket a megrendelőnek, hogy lássuk, mennyire felel meg az igényeinek. A visszatekintés ugyanennek az elvnek az alkalmazása a fejlesztőcsapat munkájára, segítségével hamar ki tudjuk deríteni, hogy a fejlesztés során alkalmazott módszerek és megoldások közül mi működik és mi nem, így folyamatosan javítani tudjuk a munkamódszereinket. 
+preface: Az agilis szoftverfejlesztés egyik központi elve a gyors visszacsatolás - amint lehet, bemutatjuk a készülő terméket a megrendelőnek, hogy lássuk, mennyire felel meg az igényeinek. A visszatekintés ugyanennek az elvnek az alkalmazása a fejlesztőcsapat munkájára, segítségével hamar ki tudjuk deríteni, hogy a fejlesztés során alkalmazott módszerek és megoldások közül mi működik és mi nem, így folyamatosan javítani tudjuk a munkamódszereinket. 
 author: Szalai Gyula <gyszalai@gmail.com>
-date: 2013-05-20 15:50
+date: 2013-06-01 13:10
 state: BETA
 template: layout.jade
+
 ---
 
 ## Mi a visszatekintő (retrospektív) megbeszélés 
@@ -96,7 +97,6 @@ A visszatekintő megbeszélés teljes hossza 80 perc 10% csúszóidővel. A megb
 
 Azzal, hogy rendszeresen visszatekintő megbeszéléseket tartunk, elérhetjük, hogy a munkamódszerünket folyamatosan, apró lépésekkel mindig jobbá tudjuk tenni. Ideális esetben a problémákat még az előtt észre tudjuk venni, hogy komoly gondot okoznának. Meg tudjuk találni azokat a munkamódszereket, amik hatékonyabbá, produktívabbá vagy legalábbis boldogabbá tesznek minket. 
 Az agilis munkamódszerek segítségével a munkánkat jobban tudjuk végezni, a visszatekintések pedig segítenek a folyamatok, módszerek finomhangolásában.
-
 
 ##További olvasmányok
 
