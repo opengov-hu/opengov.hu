@@ -47,3 +47,7 @@
 .guides ul li code {
   display: inline-block;
 }
+
+ul {
+    list-style-type: square;
+}

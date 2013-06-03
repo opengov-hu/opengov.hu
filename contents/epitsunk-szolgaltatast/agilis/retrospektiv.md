@@ -15,9 +15,9 @@ A visszatekintés egy minden [sprint](/epitsunk_szolgaltatast/agilis/agilis-foga
 
 A visszatekintés a következő lépésekből áll
 
-* \* Adatok, információk összegyűjtése
-* \* A problémák elemzése, kibontása
-* \* A teendők eldöntése
+* Adatok, információk összegyűjtése
+* A problémák elemzése, kibontása
+* A teendők eldöntése
 
 A visszatekintés során minden csapattagnak meg kell adni a lehetőséget, hogy hozzájáruljon a fejlesztési folyamat és a termelékenység javításához.
 
@@ -27,19 +27,19 @@ Minden visszatekintő megbeszélést egy vezetőnek kell felügyelnie. A vezető
 
 A vezető feladatai a következők:
 
-* \* A visszatekintő megbeszélés megtervezése
-* \* Az egyenlő részvétel biztosítása
-* \* A megbeszélés egyben tartása, azaz hogy a téma ne térüljön el
-* \* Annak biztosítása, hogy a szükséges lépésekről döntés születik és ezekhez a megfelelő csapattagok hozzá lesznek rendelve
-* \* A megbeszélés időkeretének menedzselése, hogy a szükségesnél több idő ne menjen el
+* A visszatekintő megbeszélés megtervezése
+* Az egyenlő részvétel biztosítása
+* A megbeszélés egyben tartása, azaz hogy a téma ne térüljön el
+* Annak biztosítása, hogy a szükséges lépésekről döntés születik és ezekhez a megfelelő csapattagok hozzá lesznek rendelve
+* A megbeszélés időkeretének menedzselése, hogy a szükségesnél több idő ne menjen el
 
 ## Az alapszabályok rögzítése
 
 Sokat segít, ha rögzítjük a megbeszélések alapszabályait, amik pl. a következők lehetnek:
 
-* \* Mindenki aktívan részt vesz a megbeszélésben
-* \* Senki nem vág a másik szavába (a vezetőt kivéve).
-* \* Senki nem hozhat laptopot és egyéb figyelemelvonó eszközt, hogy az emberi beszélgetésen legyen a fókusz. 
+* Mindenki aktívan részt vesz a megbeszélésben
+* Senki nem vág a másik szavába (a vezetőt kivéve).
+* Senki nem hozhat laptopot és egyéb figyelemelvonó eszközt, hogy az emberi beszélgetésen legyen a fókusz. 
 
 ## A visszatekintések eredménye 
 
@@ -47,10 +47,10 @@ A visszatekintő megbeszélések eredményeképpen ki kell derülnie, hogy mik a
 
 A megfogalmazott lépésekkel, teendőkkel kapcsolatos követelmények
 
-* \* legyenek konkrétak, mérhetőek (pl. 'írjunk 10 unit tesztet az XY modulhoz' vagy 'állítsunk össze egy új tesztkörnyezetet az alkalmazáshoz'). Az 'írjunk több unit tesztet' vagy 'jobban figyeljünk a minőségre' nem elég konkrét.
-* \* legyen konkrét határidejük
-* \* legyen konkrét felelőse, az ne a 'csapat' legyen
-* \* ne olyan személy legyen a felelős, aki nincsen jelen
+* legyenek konkrétak, mérhetőek (pl. 'írjunk 10 unit tesztet az XY modulhoz' vagy 'állítsunk össze egy új tesztkörnyezetet az alkalmazáshoz'). Az 'írjunk több unit tesztet' vagy 'jobban figyeljünk a minőségre' nem elég konkrét.
+* legyen konkrét határidejük
+* legyen konkrét felelőse, az ne a 'csapat' legyen
+* ne olyan személy legyen a felelős, aki nincsen jelen
 
 A következő visszatekintő megbeszéléseken vissza kell ellenőrizni, hogy a feladatokat a felelősök elvégezték-e. Ha többször előfordul, hogy elvégzetlenül marad néhány, lehetséges, hogy túl sok a feladat.
 
