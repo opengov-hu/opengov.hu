@@ -56,3 +56,12 @@ strong {
   font-weight: bold;
   color: #000;
 }
+
+thead {
+    font-weight: bold;
+    color: black;
+}
+tr {
+  border-bottom: 1px solid #aaa;
+  height: 2em;
+}
