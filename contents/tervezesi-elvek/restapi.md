@@ -20,6 +20,8 @@ Mivel a JSON a böngészőkön natív adatszerkezet és a mérete kisebb, ugyana
 
 A JSON adatszerkezet mellett ugyanakkor szükség volt arra a kényelemre amelyet a SOAP/WSDL/WS-* világ biztosított. Ezt a JSON elterjedésével együtt a REST API megoldás hozta el.
 
+**A REST-hez hasonló protokoll követelményt azonban semmilyen szabvány nem biztosított, így kézenfekvő volt ennek bevezetése.** A bevezetés hatalmas lökést adott az alkalmazás integrációnak, mert az alkalmazások egymás között kommunikálni tudtak oly módon, hogy nem egy interfészre szabott protokollt használtak, hanem általánosan elterjed, kipróbált eljárásokat, kódokat. **Például nincsenek SOAP üzenetkódok, de a REST API a HTTP státusz kódokat definiálta, mint használandó üzenet kód.** Ha ilyet definiálnánk az a SOAP kód arra az egy interfészre lenne érvényes, esetleg átverekednénk, hogy a szervezeten belül érvényes legyen. A REST esetén azonban globálisan használhatóak, akár teljesen más cégek szoftverével együtt.
+
 ### Mi a REST API?
 
 Egy állapotmentes (stateless) szoftver architektúra megoldás, ahol a meglévő webes standardokat használjuk ki az alkalmazás-alkalmazás kommunikációban a szerveren vagy kliensen tárolt objektumok állapotának átvitelére.
@@ -36,7 +38,8 @@ Amit az XML világ biztosít, azt a REST-es világ is biztosítja. Alábbiakban 
 | Bináris adat kezelése | MTOM és SOAP with Attachemnt | Standard, HTTP upload |
 | Aszinkronitás | Nincs | Standard, HTTP asszinkron |
 | Fejléc adatok | SOAP Header | Standard, HTTP Header |
-| Üzenet küldés | SOAP Fault boritékban | Standard, HTTP response code |
+| Hiba üzenet küldés | SOAP Fault boritékban | Standard, HTTP Header |
+| Üzenet kódok | Nincsenek | Standard, HTTP Response Code |
 | Adatméret | 100% (SOAP XML) | 25% |
 | Böngésző feldolgozás | kiegészítő szoftverrel | natívan |
 | Elterjedtség | közepes | nagyon magas |
