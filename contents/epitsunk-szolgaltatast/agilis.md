@@ -8,7 +8,7 @@ state: BETA
 template: layout.jade
 ---
 
-### Agilis
+### Agilis fejlesztés
 
 Minden felhasználó alapszintű elvárása a magas szinvonalú szolgáltatás, függetlenül attól, hogy azt kik és milyen módszerekkel fejlesztik. Az agilis fejlesztés nem csak az informatikai területre korlátozódik, hanem minden egyéb más üzleti területen is használatos, például: marketing, politika, kutatás.
 

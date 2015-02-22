@@ -1,4 +1,4 @@
-!!! 5
+doctype html
 html(lang='hu')
   head
     base(href="/")
@@ -39,8 +39,6 @@ html(lang='hu')
               img(src="/images/tudas.jpg", alt="")
           .8u
             header
-              span.state= page.metadata.state
-              span.date &nbsp;#{ moment(page.date).format('YYYY.MM.DD')}
               p= page.metadata.desc
               h1
                 strong= page.title
