@@ -3,10 +3,19 @@
 .text {
   color: #333;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   text-align: left;
 }
+
+header h2 {
+    font-size: 22px;
+}
+
+header span {
+  font-size: 18px;
+}
+
 .text h3 {
   color: rgb(223, 48, 52);
 }
@@ -16,13 +25,13 @@
   color: white;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   padding: 4px;
 }
 .date {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   padding: 4px;
 }
