@@ -32,4 +32,4 @@ Az oldalak tartalmazzák a kiadási dátumot, valamint egy jelzőt <span class="
 A <span class="state">BETA</span> jelentése: az oldal felhasználható, a tartalma megfelelő, de gyakran kaphat még kiegészítést. A <span class="state">LIVE</span> jelentése: az oldal felhasználható, a tartalma megfelelő, ritkán változó oldal. A tartalmak mindig naprakészek, régebbi tartalmakat a verziókövető rendszeren keresztül lehet elérni (lásd: Tartalom szerkesztés).
 
 ### Tartalom szerkesztés
-Az OpenGov.hu oldal tartalma a GitHub rendszeren keresztül érhető el: [OpenGov.hu forrás](https://github.com/patoi/opengov.hu) A tartalmakat Pull Request formájában fogadjuk. A tartalom szerzésről bővebben a GitHub oldalon olvashatsz.
+Az OpenGov.hu oldal tartalma a GitHub rendszeren keresztül érhető el: [OpenGov.hu forrás](https://github.com/opengov-hu/opengov.hu) A tartalmakat Pull Request formájában fogadjuk. A tartalom szerzésről bővebben a GitHub oldalon olvashatsz.
