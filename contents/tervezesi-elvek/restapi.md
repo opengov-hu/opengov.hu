@@ -30,13 +30,13 @@ Egy állapotmentes (stateless) szoftver architektúra megoldás, ahol a meglév�
 
 Amit az XML világ biztosít, azt a REST-es világ is biztosítja. Alábbiakban összeszedjük, hogy mely XML technológia mely JSON/REST technológiának felel meg.
 
-| Technika | XML | JSON/REST |
+| Technika | XML/SOAP | JSON/REST |
 | -------- | --- | --------- |
 | Adatszerkezet | XML | JSON |
 | Útválasztás | WS-Addressing | Standard, HTTP URL alapú |
 | Titkosítás | WS-Security | Standard, választható megoldások |
-| Bináris adat kezelése | MTOM és SOAP with Attachemnt | Standard, HTTP upload |
-| Aszinkronitás | Nincs | Standard, HTTP asszinkron |
+| Bináris adat kezelése | MTOM és SOAP with Attachment | Standard, HTTP upload |
+| Aszinkronitás | Nincs | Standard, HTTP aszinkron |
 | Fejléc adatok | SOAP Header | Standard, HTTP Header |
 | Hiba üzenet küldés | SOAP Fault boritékban | Standard, HTTP Header |
 | Üzenet kódok | Nincsenek | Standard, HTTP Response Code |
