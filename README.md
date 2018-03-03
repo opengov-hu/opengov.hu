@@ -2,6 +2,8 @@
 
 **Valljuk, hogy nem a termék oldja meg a problémát, hanem a megfelelő szakemberek. Nem a licencek vásárlása, hanem az elvégzett munka az, amely működő megoldásokat eredményez.**
 
+http://www.opengov.hu
+
 ## OpenGov.hu
 **Nyílt kormányzati informatikai szolgáltatások fejlesztésének kézikönyve**
 
