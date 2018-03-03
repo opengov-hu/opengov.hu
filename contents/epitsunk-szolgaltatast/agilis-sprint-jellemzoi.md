@@ -4,7 +4,6 @@ desc: Ütemezett, átgondolt, átlátható fejlesztés.
 preface: A fejlesztés időszakát részekre bontjuk (Sprint), és minden egyes részben jól meghatározott User Story-k kerülnek megvalósításra. Egyértelműen minden Sprint végén potenciálisan szállítható a termék.
 author: Pató István <istvan.pato@gmail.com>
 date: 2013-05-13 18:37
-state: BETA
 template: layout.jade
 ---
 
@@ -37,4 +36,3 @@ A Scrum előrehaladást diagramokon lehet ábrázolni, így napról napra látsz
 
 ### Kanban
 A kanban használata egyszerűbb mint a Scrum, kevesebb előírást tartalmaz, ezért rugalmasabb. Alapvető követelményei: vízualizáld a folyamatot, limitád a folyamatban lévő munkát (WIP), menedzseld a folyamatodat, egyértelműek legyenek a szabályaid, legyen visszajelzésre mód, fejleszd a folyamatodat csapatban és kísérletezz. A kanban esetén a folyamatot egy kanban táblán szemléltetik. Az ezen átfolyó feladatokat mérik, és diagramon ábrázolják. Mind a tábla, mind a diagram mindenkinek azonnal és szabadon elérhető, így nem kell senkit megzavarnunk azzal hogy "Hol tartunk?", mert az egyértelmű és világos. Minden csapat magának alakítja ki a kanban táblát, csak a csapat dönthet arról nem szabad előírásba adni! A mérőszámokat a kanban definiálja, de azon kívül szabadon bevezethető egyéb is. Példa a [kanban táblára](http://en.wikipedia.org/wiki/Kanban_board)
-

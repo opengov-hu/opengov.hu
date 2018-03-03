@@ -4,7 +4,6 @@ desc: Hogyan definiáljuk a rendszert kóddal?
 preface: A konfiguráció menedzsment alapvető követelmény a szoftver fejlesztésben. Segítségével reprodukálható és követhető a rendszer változása.
 author: Szalai Gyula <gyszalai@gmail.com>
 date: 2013-05-12 16:40
-state: BETA
 template: layout.jade
 ---
 
@@ -27,18 +26,20 @@ A konfiguráció menedzselésének egyik megközelítési módja, hogy a konfigu
 * \* futtatható dokumentáció
 * \* közös és egyértelmű nyelv a terület problémáinak megfogalmazásához
 * \* reprodukálhatóság
- 
+
 Amint az infrastruktúra konfigurációja le van írva programkódként, úgy az egyszerűen futtatható a szervereken, hálózatokon és szoftvereken.
 
 ### Készíts hordozható build-eket
 
-A szoftverrendszerek migrálása különböző szolgáltatók, operációs rendszerek és környezetek között nem egyszerű és igen időigényes feladat. Még kompatibilis szolgáltatók, környezetek esetén is könnyen függőség tud kialakulni egy-egy irányába, csupán a technológiai tehetetlenség miatt. 
+A szoftverrendszerek migrálása különböző szolgáltatók, operációs rendszerek és környezetek között nem egyszerű és igen időigényes feladat. Még kompatibilis szolgáltatók, környezetek esetén is könnyen függőség tud kialakulni egy-egy irányába, csupán a technológiai tehetetlenség miatt.
 
-A konfigurációmenedzsment ösztönzi, elősegíti a rendszer felépítésének és konfigurációjának mélyebb megértését, így ez megkönnyíti a szolgáltatók, operációs rendszerek és környezetek közötti migrációt. 
+A konfigurációmenedzsment ösztönzi, elősegíti a rendszer felépítésének és konfigurációjának mélyebb megértését, így ez megkönnyíti a szolgáltatók, operációs rendszerek és környezetek közötti migrációt.
 
-### A fejleszésre használt eszközök, környezetek egyezzenek meg az éles környezettel
+**A hordizhatóság és egységbe zárás egyik fontos technikai eszköze a konténerizáció, napjainkban a docker megoldás hódít.**
 
-Gyakori probléma, hogy a fejelsztői- vagy tesztkörnyezetben tökéletesen működő kód nem, vagy nem jól működik az éles környezetben. Ennek a leggyakoribb oka, hogy a fejlesztésre használt környezet konfigurációja eltér az éles környezettől. Ez lehet például eltérő verziójú vagy típusú adatbáziskezelő, alkalmazásszerver vagy egyéb szoftverkomponens. Ennek a problémának a legegyszerűbb megoldása az, ha a fejlesztői és éles környezetek konfigurációja teljesen megegyezik. 
+### A fejlesztésre használt eszközök, környezetek egyezzenek meg az éles környezettel
+
+Gyakori probléma, hogy a fejlesztői- vagy tesztkörnyezetben tökéletesen működő kód nem, vagy nem jól működik az éles környezetben. Ennek a leggyakoribb oka, hogy a fejlesztésre használt környezet konfigurációja eltér az éles környezettől. Ez lehet például eltérő verziójú vagy típusú adatbáziskezelő, alkalmazásszerver vagy egyéb szoftverkomponens. Ennek a problémának a legegyszerűbb megoldása az, ha a fejlesztői és éles környezetek konfigurációja teljesen megegyezik. **Az említett konténerizáció ennek a problémának a megoldásában különösen fontos.**
 
 ### Miért csináljuk így?
 

@@ -4,17 +4,16 @@ desc: Jobb architektúrák - microservice
 preface: A kétezres évek közepére jellemző monolitikus rendszeket a microservice alapú architektúrák váltották (váltják) le.
 author: Pató István <istvan.pato@gmail.com>
 date: 2013-05-13 08:53
-state: BETA
 template: layout.jade
 ---
 
 ### Monolitikus rendszerek
 
-Aki nagyvállalati vagy kormányzati rendszerekkel foglalkozott az elmúlt években, biztosan találkozott még olyan termékfüggő, monolitikus, egyedi szaktudást igénylő, licensz díjas rendszerekkel, amelyek karbantartása jelentős összegekbe kerül, ugyanakkor teljesítményük a mai szemmel nézve (néhány 10 vagy talán 100 kérés / másodperc) megmosolyogtató. Ezeknek a hagyományos, monolitikus rendszereknek (például ESB, vagy alkalmazás szerverek) a térhódítása a 2000-es évek elején indult meg. A 2000-es évek közepére széles körben elterjedtek és ennek köszönhetően széleskörben ismerté váltak a problémáik is. **Nyílvánvalóvá vált, hogy a monolitikus rendszerek képtelenek megoldani a nagy terhelésű és elosztott rendszerek problémáját.** Tömegesen elkezdtek terjedni a microservice alapú megoldások, amelyek nem igényeltek alkalmazás szervereket, nem függtek beszállítói termékektől. A microservice architktúrának nem volt nagy reklámja, hiszen az egy architektúrális megoldás, szemlélet. Annál inkább az ezt támogató infrastruktúrának: ezt nevezik Cloud-nak.
+Aki nagyvállalati vagy kormányzati rendszerekkel foglalkozott az elmúlt években, biztosan találkozott még olyan termékfüggő, monolitikus, egyedi szaktudást igénylő, licenc díjas rendszerekkel, amelyek karbantartása jelentős összegekbe kerül, ugyanakkor teljesítményük a mai szemmel nézve (néhány 10 vagy talán 100 kérés / másodperc) alacsony. Ezeknek a hagyományos, monolitikus rendszereknek - például ESB, vagy alkalmazás szerverek -, a térhódítása a 2000-es évek elején indult meg. A 2000-es évek közepére széles körben elterjedtek és ennek köszönhetően széles körben ismerté váltak a problémáik is. **Nyílvánvalóvá vált, hogy a monolitikus rendszerek képtelenek megoldani a nagy terhelésű és elosztott rendszerek problémáját.** Tömegesen elkezdtek terjedni a microservice alapú megoldások, amelyek nem igényeltek alkalmazás szervereket, nem függtek beszállítói termékektől. A microservice architktúrának nem volt nagy reklámja - hiszen az egy architektúrális megoldás, szemlélet - annál inkább az ezt támogató infrastruktúrának a Cloud-nak.
 
 ### Hol tartunk most
 
-Jelenleg a közigazgatásban sok helyen találkozni még központosított, monolitikus architektúrákkal. Gyakran a központosítást egy termék jelentette, például egy ESB alapszoftver vagy egy alkalmazás szerver. Ahol a nagyobb teljesítmény szükséges volt, ott ezeket a rendszereket ki kellett váltani microservice alapú architektúrákkal. Tarthatatlanná vált az az állapot, hogy teljesítmény és rendelkezésre állási okokból, **egy alkalmazás - egy alkalmazás szerver licenszdíj** 'architektúra' működjön. Ha az alkalmazás teljesítményét növelni akarták, akkor vagy a meglévő szervert cserélték nagyobb teljesítményűre, vagy újabb szervert állítottak be. Az alkalmazás szerverek processzormagonkénti licenszdíjja viszont jelentős kiadást jelent.
+Jelenleg a közigazgatásban sok helyen találkozni még központosított, monolitikus architektúrákkal. Gyakran a központosítást egy termék jelentette, például egy ESB alapszoftver vagy egy alkalmazás szerver. Ahol a nagyobb teljesítmény szükséges volt, ott ezeket a rendszereket ki kellett váltani microservice alapú architektúrákkal. Tarthatatlanná vált az az állapot, hogy teljesítmény és rendelkezésre állási okokból, **egy alkalmazás - egy alkalmazás szerver licencdíj** 'architektúra' működjön. Ha az alkalmazás teljesítményét növelni akarták, akkor vagy a meglévő szervert cserélték nagyobb teljesítményűre, vagy újabb szervert állítottak be. Az alkalmazás szerverek processzormagonkénti licencdíja viszont jelentős kiadást jelent. **2015 óta jelentős fordulat állt be a magyar közigazgatási informatika rendszerek tervezési szemléletében: igényként jelent meg a microservice alapú rendszertervezés.**
 
 ### Hová tartunk
 
@@ -48,21 +47,21 @@ A Google, Youtube, PayPal informatikai rendszerében nincsenek alkalmazás szerv
 * nem konténerben fut, hanem egy paranccsal elindítható
 * telepítés gyors, egy parancs
 * szoftver fordítás és tesztelés gyors, egy parancs
-* folyamatos szállítás (continuous delivery)
+* folyamatos szállítás (_continuous delivery_)
 * egyértelmű, hogy kik fejlesztik
 * olcsó
 * jellemzően 2-3 fő végzi a fejlesztést és tesztelést
 * horizontálisan, dinamikusan skálázható
 * idempotens működésű
 * moduláris felépítésű
-* jól kitesztelt, biztonsági követelményeket jól biztosítja: code review néhány 100 sorra elvégezhető
+* jól kitesztelt, biztonsági követelményeket jól biztosítja: _code review_ néhány 100 sorra elvégezhető
 * nagy teljesítményt biztosít
 * gyorsan elindítható, vagy leállítható
-* konténerekbe szervezhető (virtualizálható)
+* konténerekbe szervezhető, tipikusan _docker_ alapokon
 * egyértelmű felelősség elhatárolás a komponensek között
-* böngészőben futó alkalmazás (NWA) is képes használni
-* a projekt indítás és átadás között hetek telnek el
-* a lehető legalacsonyabb a projekt kockázat
+* a az alkalmazás fejlesztés elkezdése és átadása között csupán hetek telnek el
+* a lehető legalacsonyabb a fejlesztési kockázat
+* automatizál üzemeltetési megoldásokat tartalmaz
 
 ### Hogyan használjuk?
 

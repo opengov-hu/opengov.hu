@@ -1,6 +1,6 @@
 # OpenGov.hu nyilatkozat
 
-**Valljuk, hogy nem a termék oldja meg a problémát, hanem a megfelelő szakemberek. Nem a licenszek vásárlása, hanem az elvégzett munka, a szolgáltatás az, amely működő megoldásokat eredményez.**
+**Valljuk, hogy nem a termék oldja meg a problémát, hanem a megfelelő szakemberek. Nem a licencek vásárlása, hanem az elvégzett munka az, amely működő megoldásokat eredményez.**
 
 ## OpenGov.hu
 **Nyílt kormányzati informatikai szolgáltatások fejlesztésének kézikönyve**
@@ -12,11 +12,10 @@ Az opengov.hu célja, hogy közösségi alapokon szerveződve létrejöjjön egy
 
 **Az oldal technológiai megoldásokat és javaslatokat mutat be, amelyek közvetlenül felhasználhatók bármely kormányzati informatikai projektben.**
 
-A tartalom mindenre kiterjedhet ami információ, és információ technológia, néhány példa:
+A tartalom mindenre kiterjedhet ami információ és információ technológia, néhány példa:
 
-- hogyan szervezzük az informatikai projekteket?
-- hogyan történjen a fejlesztés?
-- milyen fejelsztőeszközök ajánlottak?
+- hogyan szervezzük az informatikai projektek végrehajtását?
+- hogyan történjen a tervezés és fejlesztés?
 - milyen tesztelési eszközök és módszerek biztosítják a minőséget?
 - emberi tényezők és a fejlesztés pszichológiája
 - architektúrák
@@ -29,14 +28,14 @@ Az OpenGov.hu kezdeményezés csak nyílt eszközökre és módszerekre épül. 
 ## OpenGov.hu várt hatása
 A fenti célok megvalósulása esetén számos hatása lehet az OpenGov.hu kezdeményezésnek:
 
-- Az átláthatóság és modern módszerek segítenek a fejlesztőknek bekapcsolódni a kormányzati informatikai fejlesztésekbe, és ezen keresztül a magasan képzett munkaerőt sikerül itthon tartani.
+- Az átláthatóság és modern módszerek segítenek a fejlesztőknek bekapcsolódni a kormányzati informatikai fejlesztésekbe és ezen keresztül a magasan képzett munkaerőt sikerül itthon tartani.
 - Növeli a sikeres kormányzati informatikai fejlesztések számát.
 - Rövidíti a fejlesztések átfutási idejét.
 - Jelentősen csökkenti a költségeket.
-- Átláthatóvá teszi a költségeket.
-- A magyar munkaerő felhasználásával Magyarországon történő adózással javítja a nemzetgazdaság helyzetét.
+- Tervezhetővé teszi a költségeket.
+- A magyar munkaerő felhasználásával, Magyarországon történő adózással javítja a nemzetgazdaság helyzetét.
 - A kormányzati informatikában résztvevő szakemberek az egyéb gazdasági szereplők részére végzett munkájukkal tovább növelhetik a magyar gazdaság erejét.
-- Csökkenti az informatikai fejlesztések tervezési költségeit, jelentősen csökkentve a projekt kockázatokat.
+- Csökkenti az informatikai fejlesztések tervezési és fejlesztési költségeit, jelentősen csökkentve a projekt kockázatokat.
 
 ## OpenGov.hu indítói és karbantartói
 
@@ -65,20 +64,20 @@ Szalai Gyula és Pató István az OpenGov.hu karbantartói és a kezdeményezés
 </tr>
 </table>
 
-2000 óta foglalkoznak kormányzati informatikával, így nem csak a kormányzati informatika jelenlegi helyzetére, hanem egész történetére rálátásuk van. Ezen tudást felhasználva igyekeznek jövőbe mutató megoldásokat és módszereket javasolni, és megvitatni a szakma közönséggel. A következő rendszerek fejlesztésében vettek részt az elmúlt években: Kötelező Gépjármű-felelősségbiztosítási rendszer, Magyar járműnyilvántartó rendszer, Parkolási igazolvány rendszer, Ügyfélkapu rendszer, Országos szabálysértési nyilvántarás, Idegenrendészeri nyilvántartó rendszer, Jogügyletek biztonságát fokozó rendszer, Egyéni vállalkozói igazolvány rendszer, és még további fejlesztések.
+2000 óta foglalkoznak kormányzati informatikával, így nem csak a kormányzati informatika jelenlegi helyzetére, hanem egész történetére rálátásuk van. Ezen tudást felhasználva igyekeznek jövőbe mutató megoldásokat és módszereket javasolni, megvitatni a szakma közönséggel. A következő rendszerek fejlesztésében vettek részt az elmúlt években: Kötelező Gépjármű-felelősségbiztosítási rendszer, Magyar járműnyilvántartó rendszer, Parkolási igazolvány rendszer, Ügyfélkapu rendszer, Országos szabálysértési nyilvántarás, Idegenrendészeri nyilvántartó rendszer, Jogügyletek biztonságát fokozó rendszer, Egyéni vállalkozói igazolvány rendszer, és még további fejlesztések.
 
 ### Pató István
-2000 óta foglalkozik kormányzati informatikai fejlesztésekkel: architektúrák tervezése, tervezés, programozás, automatikus tesztek fejlesztése, teljesítmény tesztek, UX tervezés. Ismert fejlesztési technológiák, eszközök: Agile, Lean, Kanban and Scrum, Wiki, Java platform HTML5, Google Maps, JavaScript, CSS, jQuery, Open Source Software and Open Standard, NoSQL - MongoDB, vert.x, Ubuntu Linux, Redis, JMeter, Git and BitBucket, Mustache template engine, Jade, NodeJS, Grunt, NetBeans, Apache Maven, Twitter Bootstrap, BDD - Cucumber, JUnit, WebDriver, Chrome, Firefox, Internet "OMG" Explorer, Jenkins, Cloud - Amazon Web Service EC2 and S3, SpringFramework, JMS, SOAP WebService, Objective-C, iOS, XCODE, ...
+2000 óta foglalkozik kormányzati informatikai fejlesztésekkel: architektúrák tervezése, tervezés, programozás, automatikus tesztek fejlesztése, teljesítmény tesztek, UX tervezés. Ismert fejlesztési technológiák, eszközök: Agile, Lean, Kanban and Scrum, Wiki, Java, JavaScript, NodeJS, Open Source Software and Open Standard, NoSQL - MongoDB, vert.x, Linux, Redis, Git and BitBucket, Apache Maven, Twitter Bootstrap, Cloud - Amazon Web Service EC2 and S3, SpringFramework, JMS, SOAP WebService, Objective-C, iOS, XCODE.
 
 ### Szalai Gyula
-2000 óta foglalkozik kormányzati informatikai fejlesztésekkel: architektúrák tervezése, tervezés, programozás, automatikus tesztek fejlesztése, teljesítmény tesztek, UX tervezés. Ismert fejlesztési technológiák, eszközök: Agile, Lean, Kanban and Scrum, Wiki, Java platform HTML5, Google Maps, JavaScript, CSS, jQuery, Open Source Software and Open Standard, NoSQL - MongoDB, vert.x, Ubuntu Linux, Redis, JMeter, Git and BitBucket, Mustache template engine, Jade, NodeJS, NetBeans, Apache Maven, BDD - Cucumber, JUnit, WebDriver, Chrome, Firefox, Internet "OMG" Explorer, Jenkins, SpringFramework, JMS, SOAP WebService...
+2000 óta foglalkozik kormányzati informatikai fejlesztésekkel: architektúrák tervezése, tervezés, programozás, automatikus tesztek fejlesztése, teljesítmény tesztek, UX tervezés. Ismert fejlesztési technológiák, eszközök: Agile, Lean, Kanban and Scrum, Java, JavaScript, CSS, NodeJS, Open Source Software and Open Standard, NoSQL - MongoDB, vert.x, Linux, Redis, Git and BitBucket, NetBeans, Apache Maven, SpringFramework, JMS, SOAP WebService.
 
 ## Az OpenGov.hu támogatása
-A tartalom alapvetően a közösség kezében van, de azért, hogy a tartalom minőségi, és szakmailag megalapozott legyen, ezért a karbantartók minden anyagot áttekintenek. Fentartjuk a jogot a beküldött tartalom szerkesztésére, módosítására, törlésére, illetve közlésére.
+A tartalom alapvetően a közösség kezében van, de azért, hogy a tartalom minőségi, és szakmailag megalapozott legyen, ezért a karbantartók minden anyagot áttekintenek. Fenntartjuk a jogot a beküldött tartalom szerkesztésére, módosítására, törlésére, illetve közlésére.
 
-Ezen munka időigényes, sok kutatást és egyezetetést igényel. A karbantartók jelenleg önkéntes alapon végzik ezt a munkát, de keressük azokat a forrásokat, amelyek segítségével a munka felgyorsítható és kiterjeszthető.
+Ezen munka időigényes, sok kutatást és egyeztetést igényel. A karbantartók jelenleg önkéntes alapon végzik ezt a munkát, de keressük azokat a forrásokat, amelyek segítségével a munka felgyorsítható és kiterjeszthető.
 
-**Várjuk a támogatókat, akiknek a segítségével, gyorsabban, és nagyobb területet lefedő tartalmat tudunk létrehozni!** 
+**Várjuk a támogatókat, akiknek a segítségével, gyorsabban, és nagyobb területet lefedő tartalmat tudunk létrehozni!**
 
 ## OpenGov.hu készítése
 Az OpenGov.hu fejlesztése nyílt alkalmazásokkal történik. Az oldal tartalmát CSS, MarkDown (.md), HTML5 és JavaScript segítségével fejlesztjük. Felhasználjuk a közösségi médiát (Twitter, GitHub) a fejlesztésre és kapcsolattartásra. A felhasznált nyílt szoftverek és módszerek:
@@ -90,14 +89,14 @@ Az OpenGov.hu fejlesztése nyílt alkalmazásokkal történik. Az oldal tartalm�
 - Jade template eszköz
 
 ### A weboldal generálása
-1. Telepítsd a NodeJS (npm) és a Wintersmith programot.
-1. Klónozd a git tárolót!
-1. A létrehozott könyvtárban add ki az alábbi parancsot:
-**wintersmith build**
+1. Klónozd a git tárolót.
+1. Telepítsd a NodeJS-t.
+1. Add ki az **npm install** parancsot.
+1. A létrehozott könyvtárban add ki az alábbi parancsot: **npm run build**
 1. A ./build könyvtárban megtalálod a kész tartalmat.
 
-### Fejlesztés és ellenőrzés
-A fejlesztéshez nem szükséges mindig kigenerálni a build könyvtárat! Egyszerűen add ki a **wintersmith preview** parancsot az opengov.hu könyvtárban, és a böngészőben a **http://localhost:8080** címen eléred az oldalt.
+### A weboldal megtekintése saját gépen
+A fejlesztéshez nem szükséges mindig kigenerálni a build könyvtárat! Egyszerűen add ki az **npm start** parancsot az opengov.hu könyvtárban, és a böngészőben a **http://localhost:8080** címen eléred az oldalt.
 
 ### Oldalak metaadatai
 Az oldalakhoz kötelező a minimális metaadatokat megadni az alábbi formában:
@@ -106,15 +105,10 @@ Az oldalakhoz kötelező a minimális metaadatokat megadni az alábbi formában:
     title: OpenGov.hu tartalma
     desc: A tartalom létrehozásának kritériumai.
     preface: Ezen az oldalon összefoglaljuk az OpenGov.hu oldalon lévő tartalmak létrehozásának, és fejlesztésének alapvető követelményeit.
-    author: Pató István <istvan.pato@gmail.com>
+    author: Pató István <istvan.pato@----.com>
     date: 2013-05-12 15:40
-    state: BETA
     template: layout.jade
     ---
 
-A *state* BETA, vagy LIVE értékű lehet. Először minden tartalmat BETA jelzővel adj meg, ha az adott oldal már LIVE értékű, akkor ne változtasd.
-
 ### Az oldalak megfogalmazása
 Az oldalakat közvetlen stílusban fogalmazzuk meg. Nem használunk egyesszám elsőszemélyt. Azokat a szavakat, amelyek a magyar nyelvben nem honosodtak meg angol nyelven tüntetjük fel. Bizonyos esetekben magyarul és angolul is feltüntetjük a fogalmakat.
-
-

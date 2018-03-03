@@ -4,7 +4,6 @@ desc: REST API a szoftver infrastruktúra nyelve
 preface: Az információ technológia változásával a fejlődés felgyorsult, amely nem csak az eszközökre, hanem a megoldásokra is hatással volt. A korábban nehézkes, lassú és bonyolult kommunikációs módszereket egy könnyen érthető, egyszerű és a weben natív megoldásnak számító megoldás váltotta, a REST API.
 author: Pató István <istvan.pato@gmail.com>
 date: 2015-02-22 18:53
-state: BETA
 template: layout.jade
 ---
 
@@ -24,7 +23,7 @@ A JSON adatszerkezet mellett ugyanakkor szükség volt arra a kényelemre amelye
 
 ### Mi a REST API?
 
-Egy állapotmentes (stateless) szoftver architektúra megoldás, ahol a meglévő webes standardokat használjuk ki az alkalmazás-alkalmazás kommunikációban a szerveren vagy kliensen tárolt objektumok állapotának átvitelére.
+Egy állapotmentes (stateless) szoftver architektúra megoldás, ahol **a meglévő webes standardokat használjuk ki az alkalmazás-alkalmazás kommunikációban** a szerveren vagy kliensen tárolt objektumok állapotának átvitelére. Tipikusan a HTTP szabványban található szabályokat követi: HTTP státuszkódok, HTTP igék és HTTP fejléc kezelés.
 
 ### XML/SOAP/WSDL/WS-* és a JSON/REST API összevetése
 
@@ -45,5 +44,5 @@ Amit az XML világ biztosít, azt a REST-es világ is biztosítja. Alábbiakban 
 | Elterjedtség | közepes | nagyon magas |
 | Validálás | kiegészítő szoftverrel | kiegészítő szoftverrel |
 | Üzenet előállítás | kiegészítő szoftverrel | kiegészítő szoftverrel (NodeJS esetén natív) |
-| Használható-e közvetlenül böngészből? | Nem | Igen |
+| Használható-e közvetlenül böngészőből? | Nem | Igen |
 | RPC jellegű? | Igen | Nem |

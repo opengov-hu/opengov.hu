@@ -1,0 +1,30 @@
+{
+  "name": "opengov.hu",
+  "version": "1.0.0",
+  "description": "Valljuk, hogy nem a termék oldja meg a problémát, hanem a megfelelő szakemberek. Nem a licenszek vásárlása, hanem az elvégzett munka, a szolgáltatás az, amely működő megoldásokat eredményez.",
+  "scripts": {
+    "build": "wintersmith build",
+    "start": "wintersmith preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opengov-hu/opengov.hu.git"
+  },
+  "keywords": [
+    "egov",
+    "hungarian",
+    "magyar",
+    "magyarország",
+    "opengov.hu",
+    "opengov"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/opengov-hu/opengov.hu/issues"
+  },
+  "homepage": "https://github.com/opengov-hu/opengov.hu#readme",
+  "devDependencies": {
+    "wintersmith": "^2.4.1"
+  }
+}
