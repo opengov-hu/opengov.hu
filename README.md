@@ -49,7 +49,7 @@ Szalai Gyula és Pató István az OpenGov.hu karbantartói és a kezdeményezés
 <img src="http://www.gravatar.com/avatar/446566051e4a9ed9270452f7d4a36a58.png" alt="Szalai Gyula">
 </td>
 <td>
-<img src="http://www.gravatar.com/avatar/bccd8a27bbf77651c3ad812e55df4a60.png" alt="Pató István">
+<img src="https://s.gravatar.com/avatar/bccd8a27bbf77651c3ad812e55df4a60?s=80" alt="Pató István">
 </td>
 </tr>
 <tr>
