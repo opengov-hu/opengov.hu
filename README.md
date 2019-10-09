@@ -43,25 +43,21 @@ A fenti célok megvalósulása esetén számos hatása lehet az OpenGov.hu kezde
 
 Szalai Gyula és Pató István az OpenGov.hu karbantartói és a kezdeményezés elindítói.
 
-<table>
+<table border="0">
 <tr>
-<td>
+<td align="center">
 <img src="http://www.gravatar.com/avatar/446566051e4a9ed9270452f7d4a36a58.png" alt="Szalai Gyula">
 </td>
-<td>
+<td align="center">
 <img src="https://s.gravatar.com/avatar/bccd8a27bbf77651c3ad812e55df4a60?s=80" alt="Pató István">
 </td>
 </tr>
 <tr>
 <td>Szalai Gyula<br/>
 <a href="https://twitter.com/intent/tweet?screen_name=gyszalai" class="twitter-mention-button" data-related="gyszalai">Tweet küldése</a>
-<br/>
-<a href="mailto: gyszalai@gmail.com?subject=OpenGov.hu - ">Levél küldése</a>
 </td>
 <td>Pató István<br/>
 <a href="https://twitter.com/intent/tweet?screen_name=patoistvan" class="twitter-mention-button" data-related="patoistvan">Tweet küldése</a>
-<br/>
-<a href="mailto: istvan.pato@gmail.com?subject=OpenGov.hu - ">Levél küldése</a>
 </td>
 </tr>
 </table>
