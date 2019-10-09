@@ -84,14 +84,14 @@ Az OpenGov.hu fejlesztése nyílt alkalmazásokkal történik. Az oldal tartalm�
 - GIMP képszerkesztő
 - Kanban
 - reText MarkDown fájl szerkesztő
-- Jade template eszköz
+- Jade (Pug) template eszköz
 
 ### A weboldal generálása
 1. Klónozd a git tárolót.
 1. Telepítsd a NodeJS-t.
 1. Add ki az **npm install** parancsot.
 1. A létrehozott könyvtárban add ki az alábbi parancsot: **npm run build**
-1. A ./build könyvtárban megtalálod a kész tartalmat.
+1. A ./docs könyvtárban megtalálod a kész tartalmat.
 
 ### A weboldal megtekintése saját gépen
 A fejlesztéshez nem szükséges mindig kigenerálni a build könyvtárat! Egyszerűen add ki az **npm start** parancsot az opengov.hu könyvtárban, és a böngészőben a **http://localhost:8080** címen eléred az oldalt.
