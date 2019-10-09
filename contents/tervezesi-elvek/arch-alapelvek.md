@@ -4,7 +4,7 @@ desc: Az architektúra tervezés alapkövetelményei
 preface: Egy jól kitalált architektúra a megvalósítást olcsóbbá teszi, meggyorsítja a bevezetést és megbízhatóvá, karbantarthatóvá teszi a  szoftvert.
 author: Pató István <istvan.pato@gmail.com>
 date: 2013-05-13 08:53
-template: layout.jade
+template: layout.pug
 ---
 
 ### Szoftver architektúra

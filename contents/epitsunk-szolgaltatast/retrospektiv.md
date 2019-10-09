@@ -4,7 +4,7 @@ desc: Hogyan és miért elemezzünk?
 preface: Az agilis szoftverfejlesztés egyik központi elve a gyors visszacsatolás - amint lehet, bemutatjuk a készülő terméket a megrendelőnek, hogy lássuk, mennyire felel meg az igényeinek. A visszatekintés ugyanennek az elvnek az alkalmazása a fejlesztőcsapat munkájára, segítségével hamar ki tudjuk deríteni, hogy a fejlesztés során alkalmazott módszerek és megoldások közül mi működik és mi nem, így folyamatosan javítani tudjuk a munkamódszereinket.
 author: Szalai Gyula <gyszalai@gmail.com>
 date: 2013-06-01 13:10
-template: layout.jade
+template: layout.pug
 ---
 
 ## Mi a visszatekintő (retrospektív) megbeszélés

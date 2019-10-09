@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/opengov-hu/opengov.hu#readme",
   "devDependencies": {
-    "wintersmith": "^2.4.1"
+    "wintersmith": "^2.5.0"
   }
 }

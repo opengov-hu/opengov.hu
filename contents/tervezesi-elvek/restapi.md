@@ -4,7 +4,7 @@ desc: REST API a szoftver infrastruktúra nyelve
 preface: Az információ technológia változásával a fejlődés felgyorsult, amely nem csak az eszközökre, hanem a megoldásokra is hatással volt. A korábban nehézkes, lassú és bonyolult kommunikációs módszereket egy könnyen érthető, egyszerű és a weben natív megoldásnak számító megoldás váltotta, a REST API.
 author: Pató István <istvan.pato@gmail.com>
 date: 2015-02-22 18:53
-template: layout.jade
+template: layout.pug
 ---
 
 ### Mi volt eddig?

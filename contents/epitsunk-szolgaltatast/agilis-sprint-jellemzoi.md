@@ -4,7 +4,7 @@ desc: Ütemezett, átgondolt, átlátható fejlesztés.
 preface: A fejlesztés időszakát részekre bontjuk (Sprint), és minden egyes részben jól meghatározott User Story-k kerülnek megvalósításra. Egyértelműen minden Sprint végén potenciálisan szállítható a termék.
 author: Pató István <istvan.pato@gmail.com>
 date: 2013-05-13 18:37
-template: layout.jade
+template: layout.pug
 ---
 
 Új termék kifejlesztésére a <a href="http://en.wikipedia.org/wiki/Scrum_(development)">Scrum</a> az egyik legjobb módszer. Akkor alkalmazzuk, ha a fejlesztő csapat csak ezen új fejlesztésen dolgozik. Amennyiben a fejlesztő csapat más feladatot is ellát közben (más fejlesztés, vagy szupport tevékenység), úgy a Scrum csak korlátozottan alkalmazható. Ekkor célszerű a <a href="http://en.wikipedia.org/wiki/Kanban_(development)">Kanban</a> módszert alkalmazni.

@@ -4,7 +4,7 @@ desc: Útmutatók a projekthez.
 preface: Tételesen összefoglaljuk a fejlesztéshez szükséges elveket, és feladatokat. Így mindenki képet alkothat a szükséges munkáról.
 author: Pató István <istvan.pato@gmail.com>
 date: 2013-05-13 08:53
-template: topic.jade
+template: topic.pug
 ---
 
 <!--### Agilitás-->

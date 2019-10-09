@@ -4,7 +4,7 @@ desc: Folyamatos termék szállítás bármikor
 preface: A folyamatos szállítás (Continuous Delivery) célja hogy minél előbb, minőségi szolgáltatást adjon a felhasználónak.
 author: Pató István <istvan.pato@gmail.com>
 date: 2013-05-13 08:53
-template: layout.jade
+template: layout.pug
 ---
 
 A [LEAN elmélet](http://en.wikipedia.org/wiki/Lean_software_development) szerint az a szoftver ami nincs használva, nem közvetít értéket, és csak veszteséget termel a karbantartása és kezelése. A folyamatos szállítás feladata az, hogy egy elkészült funkció, a megfelelő minőségben azonnal kikerülhessen használatra. Az agilis szemlélet szerint minden iteráció végén a szoftvernek olyan állapotban kell lennie, hogy az átadható legyen a felhasználók számára. Ez nem jelenti persze azt, hogy le is kell szállítani, de a képességnek meg kell lennie.

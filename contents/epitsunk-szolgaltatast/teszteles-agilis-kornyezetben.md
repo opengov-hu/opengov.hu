@@ -4,7 +4,7 @@ desc: Amit tesztelsz, az lesz a szolgáltatás
 preface: Elsősorban a legfontosabb dolog, hogy felismerjük, hogy miért tesztelünk. Leggyakoribb hiba, ha arra fókuszálunk, hogy ellenőrizzük a terméket.
 author: Pató István <istvan.pato@gmail.com>
 date: 2013-05-20 17:11
-template: layout.jade
+template: layout.pug
 ---
 
 Az agilis fejlesztés legfontosabb része a minőség. A tesztelést ehhez kell igazítani. Leggyakoribb hiba, hogy ha fókuszálunk, hogy ellenőrizzük a terméket. A minőség ettől több, annak a termék fejlesztés folyamatába kell épülnie.

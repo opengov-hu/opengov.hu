@@ -4,7 +4,7 @@ desc: Modern tervezési irányok és elvek.
 preface: Az oldalon útmutatót találsz a modern informatikai rendszerek tervezéséhez, az architektúra kialakításához.
 author: Pató István <istvan.pato@gmail.com>
 date: 2015-02-22 13:40
-template: topic.jade
+template: topic.pug
 ---
 
 <!--### Architektúra -->

@@ -1,6 +1,6 @@
 ---
 title: Wintersmith
-template: layout.jade
+template: layout.pug
 ---
 
 

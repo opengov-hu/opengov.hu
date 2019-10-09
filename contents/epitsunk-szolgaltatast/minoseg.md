@@ -4,7 +4,7 @@ desc: A szoftver minőség mérése és értékelése
 preface: Minden szoftver minősége döntően befolyásolja a felhasználó elégedettségét, ezért különösen fontos, hogy törekedjünk a kiváló és hibátlan termék elkészítésére.
 author: Pató István <istvan.pato@gmail.com>
 date: 2013-05-12 19:44
-template: layout.jade
+template: layout.pug
 ---
 
 ### Minőség

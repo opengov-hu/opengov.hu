@@ -109,7 +109,7 @@ Az oldalakhoz kötelező a minimális metaadatokat megadni az alábbi formában:
     preface: Ezen az oldalon összefoglaljuk az OpenGov.hu oldalon lévő tartalmak létrehozásának, és fejlesztésének alapvető követelményeit.
     author: Pató István <istvan.pato@----.com>
     date: 2013-05-12 15:40
-    template: layout.jade
+    template: layout.pug
     ---
 
 ### Az oldalak megfogalmazása

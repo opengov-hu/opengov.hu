@@ -4,7 +4,7 @@ desc: Agilis fejlesztéssel gyorsan és biztosan haladunk
 preface: Az agilis módszer segíti a csapatokat, hogy világszínvonalú, felhasználó-központú szolgáltatásokat építsenek gyorsan, és költséghatékonyan.
 author: Pató István <istvan.pato@gmail.com>
 date: 2013-05-13 08:53
-template: layout.jade
+template: layout.pug
 ---
 
 ### Agilis fejlesztés

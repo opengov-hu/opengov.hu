@@ -4,7 +4,7 @@ desc: Hogyan definiáljuk a rendszert kóddal?
 preface: A konfiguráció menedzsment alapvető követelmény a szoftver fejlesztésben. Segítségével reprodukálható és követhető a rendszer változása.
 author: Szalai Gyula <gyszalai@gmail.com>
 date: 2013-05-12 16:40
-template: layout.jade
+template: layout.pug
 ---
 
 Ezen oldal tartalma a https://www.gov.uk/service-manual/browse oldal fordítása valamint a szerző véleménye alapján készült, [Open Government Licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/).
