@@ -1,0 +1,76 @@
+@charset 'UTF-8';
+
+.text {
+  color: #333;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+}
+
+header h2 {
+    font-size: 22px;
+}
+
+header span {
+  font-size: 18px;
+}
+
+.text h3 {
+  color: rgb(223, 48, 52);
+}
+
+.state {
+  background-color: rgb(223, 48, 52);
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 4px;
+}
+.date {
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 4px;
+}
+
+.logo {
+  color: #CCC;
+  font-weight: 600;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 4px;
+}
+
+.guides ul li {
+  width: 100%;
+  border-bottom: 1px solid #CCC;
+  padding-bottom: 5px;
+}
+.guides ul li a {
+  display: inline-block;
+  width: 40%;
+}
+.guides ul li code {
+  display: inline-block;
+}
+
+ul {
+    list-style-type: square;
+}
+
+strong {
+  font-weight: bold;
+  color: #000;
+}
+
+thead {
+    font-weight: bold;
+    color: black;
+}
+tr {
+  border-bottom: 1px solid #aaa;
+  height: 2em;
+}
